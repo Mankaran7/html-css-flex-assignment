@@ -1,0 +1,129 @@
+    
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.container{
+    width:95%;
+    margin:2%;
+    border: 2px solid black;
+
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+.main-section{
+    margin-left: 7%;
+    display: flex;
+    gap: 45px;
+    
+}
+
+.main-section-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 45%;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    
+}
+.main-section-left img{
+    width: 100%;
+}
+.main-section-left-heading{
+    display: flex;
+    margin-left: 20px;
+}
+
+.main-section-left-content p{
+    width: 90%;
+    margin: 0;
+    text-align: justify; 
+    margin-left: 20px;
+    margin-right: 5px;
+
+}
+.left-footer-readmore{
+    display: flex;
+    margin-left: 20px;
+
+}
+.left-footer {
+    display: flex;
+    gap: 30px;
+    align-items: center; 
+    width: 100%;
+    margin-left: 20px;
+}
+.left-footer div {
+    display: flex;
+    align-items: center; 
+    gap: 5px; 
+}
+.left-footer-readmore{
+    display: flex;
+    gap:5px;
+    
+}
+.left-footer-readmore a{
+    text-decoration: none;
+    color: blue;
+
+}
+.main-section-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: auto;
+    align-items: center;
+    
+}
+.main-section-right-top{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    border: 1px solid black;
+}
+.main-section-right-middle{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    border: 1px solid black;
+}
+.main-section-right-bottom{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    border: 1px solid black;
+}
+.main-section-right-content{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+.main-section-right-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-section-right-footer-date{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.main-section-right-image{
+    height: 100%;
+}
+.main-section-right-image img {
+    width: 180px;
+    height: 100%;
+    
+}
